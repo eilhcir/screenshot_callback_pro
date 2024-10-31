@@ -1,3 +1,7 @@
+## 0.0.6
+
+Clear onCallbacks when disposing
+
 ## 0.0.5
 
 update flutter environment
