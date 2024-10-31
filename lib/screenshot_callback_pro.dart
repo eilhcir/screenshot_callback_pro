@@ -62,6 +62,7 @@ class ScreenshotCallbackPro {
 
   /// Remove callback listener.
   Future<void> dispose() async {
+    onCallbacks.clear();
     if (Platform.isAndroid) {
       final hostApi = this.hostApi;
       if (hostApi == null) return;

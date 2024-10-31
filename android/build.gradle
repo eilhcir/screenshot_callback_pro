@@ -1,4 +1,4 @@
-group 'com.flutter.moum.screenshot_callback'
+group 'com.liudongcai.screenshot_callback_pro'
 version '1.0'
 
 buildscript {
@@ -26,7 +26,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 33
+    namespace 'com.liudongcai.screenshot_callback_pro'
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 21
