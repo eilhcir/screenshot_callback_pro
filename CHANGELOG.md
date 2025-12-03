@@ -1,3 +1,7 @@
+## 0.0.8
+
+Resolve version conflicts for pigeon
+
 ## 0.0.7
 
 Upgrade pigeon version to ^25.3.2
